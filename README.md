@@ -5,7 +5,7 @@ Firefox OS sample Apps
 
 This is the unofficial repository for Mozilla on how to port Chrome packaged apps. 
 
-If you have any questions or would like to add to this repo, just ping me on irc: onecyrenus, or e-mail so we can get you added to the repo. 
+If you have any questions or would like to add to this repo, just ping me on irc: dclarke, or e-mail so we can get you added to the repo. 
 Or you can always fork / send me a pull request. 
 
      
@@ -15,7 +15,7 @@ Or you can always fork / send me a pull request.
          
 Sample | API or feature | Screenshot | Link to CWS
 --- | --- | --- | ---
-<a name="_sample_hello-world" href="https://github.com/GoogleChrome/chrome-app-samples/tree/master/hello-world">hello-world</a> |  | <a target="_blank" href="https://raw.github.com/onecyrenus/firefox-os-sample-apps/master/hello-world/assets/screenshot.png"><img src="https://raw.github.com/onecyrenus/firefox-os-sample-apps/master/hello-world/assets/screenshot_thumbnail.png"></img></a>
+<a name="_sample_hello-world" href="https://github.com/dclarke/firefox-os-sample-apps/tree/master/hello-world">hello-world</a> |  | <a target="_blank" href="https://raw.github.com/dclarke/firefox-os-sample-apps/master/hello-world/assets/screenshot.png"><img src="https://raw.github.com/dclarke/firefox-os-sample-apps/master/hello-world/assets/screenshot_thumbnail.png"></img></a>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
