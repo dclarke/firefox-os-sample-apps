@@ -1,0 +1,16 @@
+{
+  "name": "Hello World",
+  "description": "Hello World",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "icon_128.png",
+    "16": "icon_16.png"
+  },
+  "developer": {
+    "name": "David Clarke",
+    "url": "https://github.com/onecyrenus/firefox-os-apps"
+  },
+  "default_locale": "en",
+  "permissions": {
+  }
+}
