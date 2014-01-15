@@ -13,11 +13,11 @@
 chrome.app.runtime.onLaunched.addListener(function() {
   chrome.app.window.create('calculator.html', {
     bounds: {
-      width: 244,
+      width: 300,
       height: 380
     },
-    maxWidth: 244,
-    minWidth: 244,
+    maxWidth: 300,
+    minWidth: 260,
     minHeight: 380,
     maxHeight: 380,
   });
