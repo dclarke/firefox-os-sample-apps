@@ -1,0 +1,176 @@
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Open Sans", "Hevatica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+#calc {
+  background-color: #fff;
+  border: 0;
+  margin: 0;
+  min-height: 340px;
+  min-width: 290px;
+  max-width: 90%;
+  padding: 0px;
+}
+
+#calc #display,
+#calc #display:focus {
+  border: none;
+  bottom: 225px;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin: 0px;
+  max-width: 90%;
+  min-width: 90%;
+  overflow: scroll;
+  padding: 20px;
+  position: absolute;
+  top: 0px;
+}
+
+#calc .edge-top {
+  height: 5px;
+  width: 100%;
+  z-index: 99;
+  position: absolute;
+  background: #fff;
+}
+
+#calc .edge {
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,
+                                           rgba(255,255,255,0) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,
+                                         rgba(255,255,255,0) 100%);
+  height: 20px;
+  position: absolute;
+  top: 5px;
+  width: 100%;
+  z-index: 99;
+}
+
+.equation {
+  width: 100%;
+  position: relative;
+  clear: both;
+  height: 22px;
+}
+
+.equation .operator {
+  color: #2c2c2c;
+  width: 15px;
+  float: right;
+  padding-right: 5px;
+  height: 22px;
+  line-height: 16px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.equation .operand {
+  color: #2c2c2c;
+  float: right;
+  max-width: 80px;
+  text-align: right;
+  overflow: hidden;
+  height: 16px;
+  line-height: 16px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.equation .accumulator {
+  color: #888;
+  float: left;
+  font-size: 13px;
+  width: 85px;
+  max-width: 80px;
+  text-align: left;
+  overflow: hidden;
+  height: 13px;
+  line-height: 13px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+}
+
+#display .hr {
+  width: 100%;
+  height: 0px;
+  border-top: 1px solid #d9d9d9;
+  position: relative;
+}
+
+#calc #buttons {
+  height: 235px;
+  max-width: 100%;
+  min-width: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.calcbutton {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #232323), color-stop(1, #232323) );
+	background:-moz-linear-gradient( center top, #232323 5%, #232323 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#232323', endColorstr='#232323');
+	background-color:#232323;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #969696;
+	display:inline-block;
+	color:#969696;
+	font-family:Verdana;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:45px;
+	line-height:45px;
+	width:24.3%;
+	text-decoration:none;
+	text-align:center;
+}
+.calcbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #232323), color-stop(1, #232323) );
+	background:-moz-linear-gradient( center top, #232323 5%, #232323 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#737373', endColorstr='#232323');
+	background-color:#232323;
+}
+.calcbutton:active {
+	position:relative;
+	top:1px;
+}
+
+.calcbutton.zero {
+	width: 48.85%;
+}
+.calcbutton.point {
+    margin-bottom: 5px;
+}
+.calcbutton.equals {
+    height:91px;
+    margin-bottom : -47px;
+}
